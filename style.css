@@ -23,6 +23,7 @@ header {
   grid-row: 1;
   display: grid;
   grid-template-columns: 15% 65% 20%;
+  margin-bottom: 4rem;
 }
 
 .up_left {
@@ -578,9 +579,13 @@ aside {
   margin-left: 16px;
 }
 
-li:hover {
+.up li:hover {
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 7px;
+}
+
+.down li:hover {
+  border-bottom: 1px solid #333;
 }
 
 h3:hover,
