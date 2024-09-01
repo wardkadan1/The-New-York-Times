@@ -6,8 +6,8 @@
 
 body {
   display: grid;
-  grid-template-columns: 19% 62% 19%;
-  grid-template-rows: 11% 1fr;
+  grid-template-columns: 18% 64% 18%;
+  grid-template-rows: 14% 1fr;
 }
 
 header {
@@ -77,13 +77,11 @@ header {
   white-space: nowrap;
   background-color: rgb(86, 123, 149);
   font-size: 11px;
-  line-height: 11px;
   font-weight: 700;
-  letter-spacing: 0.05em;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   border-radius: 3px;
-  padding: 8px 12px;
+  padding: 8px 8px;
   border: 1px solid rgb(50, 104, 145);
 }
 
@@ -427,7 +425,6 @@ aside {
 
 #_2_aside_1_p,
 #_2_aside_2_p {
-  color: var(--color-content-primary, #121212);
   font-weight: 700;
   font-family: nyt-cheltenham, cheltenham-fallback-georgia,
     cheltenham-fallback-noto, georgia, "times new roman", times, serif;
@@ -579,4 +576,15 @@ aside {
   grid-column: 2;
   width: calc(100% - 16px);
   margin-left: 16px;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+}
+
+h3:hover,
+.hov:hover {
+  color: var(--color-content-quaternary, #727272);
+  border-radius: 7px;
 }
